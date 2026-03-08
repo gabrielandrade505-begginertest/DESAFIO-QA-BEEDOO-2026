@@ -17,3 +17,13 @@ https://docs.google.com/spreadsheets/d/156ZLHZ_qHbW1OwFCO85XBRI4PMn-WbKRUf39aRbm
 
 ## Evidências dos testes
 https://drive.google.com/drive/folders/1NVy89PT6C7ELHaHD1UHBOo5O1-NkSFBJ?usp=sharing
+
+## Bugs encontrados
+
+Durante os testes foram identificados alguns comportamentos inesperados:
+
+- O sistema permite cadastrar curso sem preencher o campo "Nome do curso".
+- O sistema permite cadastrar curso sem descrição.
+- O sistema permite cadastrar curso sem datas de início e fim.
+
+Esses comportamentos indicam ausência de validação de campos obrigatórios.
